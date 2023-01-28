@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+  
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.logo{
+    margin: 25px 0 0 20px;
+    padding: 5px;
+}
+main{
+    width: 100%;
+    height: 737px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+section{
+    height: 100%;
+}
+.textarea{
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-bottom: 5px;
+    padding: 40px;
+    font-size: 18px;
+    font-style: normal;
+    border-style: dashed;
+    border-color: #9A05FA;
+    border-width: 3px;
+}
+::placeholder{
+    color: darkslateblue;
+}
+.losbotones{
+    margin-left: 430px;
+}
+#botonEncriptar{
+    width: 150px;
+    height: 60px;
+    border-radius: 25px;
+    padding: 8px;
+    font-size: medium;
+    background-color: #D7FFFE;
+    font-weight: bold;
+}
+#botonDesencriptar{
+    width: 150px;
+    height: 60px;
+    border-radius: 25px;
+    padding: 8px;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #1B4F72;
+    color: white;
+    ;
+}
+.seccion1{
+    width: 60%;
+}
+
+.seccion2{
+    margin-right: 200px;
+    width: 30%;
+}
+.candado{
+    
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: -400px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    
+}
+.mensaje{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 105px;
+    
+}
+.parrafo{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+#textoDesencriptado{
+    margin-left: 150px;
+    margin-top: 100px;
+    padding: 15px 0 0 15px;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 30px;
+    border-color: aliceblue;
+    border-top: none; 
+    box-shadow: 0px 24px 35px -10px;
+    border-color: rgb(131, 123, 118) rgba(0, 0, 0, 0.08);
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+#botonCopiar{
+    width: 150px;
+    height: 60px;
+    border-radius: 25px;
+    padding: 8px;
+    font-size: medium;
+    background-color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 285px;
+    color: whitesmoke;
+    border-bottom: whitesmoke;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    
+}
+.derechos{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.abril{
+    text-align: center;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 12px;
+}
